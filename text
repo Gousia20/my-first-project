@@ -35,16 +35,19 @@ tash
 
 
 
-temporary stash
-<<<<<<< HEAD
 
 
 
 
-hello
+
+
+
+
 
 
 
 =======
  hi
 >>>>>>> text change
+=======
+>>>>>>> Revert "reverted text change"
