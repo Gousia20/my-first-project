@@ -36,6 +36,7 @@ tash
 
 
 temporary stash
+<<<<<<< HEAD
 
 
 
@@ -44,3 +45,6 @@ hello
 
 
 
+=======
+ hi
+>>>>>>> text change
