@@ -12,7 +12,7 @@ change for main
 
 changes for user
 
-<<<<<<< HEAD
+
 
 
 
@@ -47,13 +47,13 @@ tash
 
 
 
-=======
+
  hi
->>>>>>> text change
-=======
->>>>>>> Revert "reverted text change"
-=======
+
+
+
+
 temporary stash
  hi
->>>>>>> revert the reverted
+
 good evening
