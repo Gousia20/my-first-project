@@ -40,13 +40,6 @@ pipeline {
             }
         }
 
-        stage('Checkout') {
-            steps {
-                git branch: 'main',
-                    url: 'https://github.com/Gousia20/my-first-project.git'
-            }
-        }
-
         stage('Check Tools') {
             steps {
                 bat '''
