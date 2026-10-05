@@ -1,0 +1,8 @@
+name = "myvm"
+resource_group_name = "myrg"
+location = "EAST US"
+username = "azureuser"
+vnet_name = "vnet"
+subnet_name = "subnet"
+nic_name = "nic"
+size = "Standard_B1s"

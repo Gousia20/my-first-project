@@ -1,0 +1,6 @@
+name = "myaks"
+resource_group_name = "myrg"
+location = "EAST US"
+agent_name = "agent"
+dns_prefix = "aksdns"
+vm_size = "Standard_B2s"

@@ -1,0 +1,16 @@
+resource "azurerm_storage_account" "sa" {
+  name                     = var.name
+  resource_group_name      = var.resource_group_name
+  location                 = var.location
+  account_tier             = "Standard"
+  account_replication_type = "LRS"
+  access_tier              = "Hot"
+}
+
+# Storage Container
+
+resource "azurerm_storage_container" "container" {
+  name                  = var.container_name
+  storage_account_id    = azurerm_storage_account.sa.id
+  container_access_type = "private"
+}
